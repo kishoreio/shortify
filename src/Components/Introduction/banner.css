@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+#banner-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 550px;
+}
+#banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+#banner-head {
+  font-size: 50px;
+}
+#banner-para {
+  color: grey;
+  font: 25px;
+}
+
+#banner-image {
+  background: url("../../Resources/intro.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/* media query mobile only*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #banner-container {
+    flex-wrap: wrap-reverse;
+    height: 450px;
+  }
+  #banner-text {
+    width: 100%;
+    justify-content: center;
+  }
+  #banner-head {
+    font-size: 40px;
+  }
+  #banner-para {
+    margin-top: -10px;
+    height: initial;
+  }
+  #banner-image {
+    height: 240px;
+  }
+}

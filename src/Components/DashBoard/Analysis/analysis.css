@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
+#analysis-container {
+  display: flex;
+  width: 35%;
+  height: 555px;
+}
+#analysis-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: inherit;
+  background: #f9f9fc;
+}
+.analysis-tab {
+  display: flex;
+  width: 60%;
+  height: 120px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.tab1 {
+  background: linear-gradient(to right, #fe9365, #feb798);
+}
+.tab2 {
+  background: linear-gradient(to right, #0ac282, #0df3a3);
+}
+.tab3 {
+  background: linear-gradient(to right, #fe5d70, #fe909d);
+}
+#analysis-content {
+  height: inherit;
+  width: 100%;
+  display: flex;
+}
+.analysis-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: inherit;
+  font-family: "Patua One";
+  color: white;
+  font-size: 23px;
+  word-break: break-all;
+}
+.analysis-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: inherit;
+}
+img {
+  width: 40%;
+}
+/* media query mobile only*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #analysis-container {
+    width: 100%;
+    height: 140px;
+  }
+  #analysis-left {
+    width: 33.3%;
+    display: contents;
+  }
+
+  .analysis-text {
+    justify-content: unset;
+    text-align: center;
+  }
+
+  .analysis-tab {
+    display: block;
+    width: 100%;
+    border-radius: 0px;
+  }
+  p {
+    word-break: break-word;
+  }
+  .mobile-res {
+    font-size: 17px;
+  }
+}

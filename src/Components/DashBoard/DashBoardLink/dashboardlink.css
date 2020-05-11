@@ -1,0 +1,12 @@
+#dashboard-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+  height: 120px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #dashboard-link-container {
+    margin-top: -20px;
+  }
+}

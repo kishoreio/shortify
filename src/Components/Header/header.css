@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+#logo {
+  padding-left: 15px;
+  font-family: "Lobster", sans-serif;
+}
+#logo a {
+  color: #ee6123;
+}
+#login-logout {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  padding-right: 10px;
+}
+#login:hover {
+  color: #2a5bd7;
+}
+.header-text {
+  padding: 5px;
+}
+.sign-text {
+  border: 2px solid #ee6123;
+  box-sizing: border-box;
+  transition: ease 0.5s;
+  text-decoration: none !important;
+}
+.sign-text:hover {
+  background: #ee6123;
+  color: white;
+}
+a {
+  text-decoration: none !important;
+}
+#dashboard-tab {
+  height: 50px;
+  width: 300px;
+  padding: 5px 0px;
+  margin-right: 40px;
+}
+
+#dashboard-contents {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+#dashboard-one {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+}
+
+#dashboard-img {
+  transform: scale(0.7);
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+#dashboard-two {
+  display: flex;
+}
+.text-cred {
+  margin: 5px 10px;
+}
+/* media query mobile only*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #login-logout {
+    width: 30%;
+    padding-right: 0px;
+    margin-right: 5px;
+  }
+  .header-text {
+    padding: 0px;
+  }
+  .sign-text:hover {
+    background: transparent;
+    color: black;
+  }
+  .sign-text {
+    border: none;
+  }
+  #dashboard-tab {
+    width: 0;
+    margin-right: 0px;
+    display: contents;
+  }
+  #dashboard-contents {
+    flex-direction: column;
+  }
+  #dashboard-one {
+    justify-content: center;
+  }
+}

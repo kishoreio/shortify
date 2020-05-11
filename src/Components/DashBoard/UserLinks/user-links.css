@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Squada+One&display=swap");
+#user-link-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: scroll;
+  max-height: 435px;
+}
+#user-link-tab {
+  border-bottom: 1px solid gray;
+  width: 96%;
+  height: 120px;
+  margin: 0 auto;
+}
+#user-link-top {
+  display: flex;
+  height: 20px;
+  padding-top: 2px;
+}
+.cred {
+  padding-left: 8px;
+  font-size: 12px;
+  font-family: monospace;
+  color: #24242b;
+}
+#user-link-middle {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding-left: 8px;
+  font-family: "Squada One";
+  font-size: 15px;
+}
+#user-link-bottom {
+  display: flex;
+  padding-left: 8px;
+}
+.user-link-btn {
+  outline: none;
+  border: 0;
+  border: 1px solid #ee6123;
+  font-size: 10px;
+  height: 20px;
+  margin: 0px 8px;
+}
+.user-link-btn:hover {
+  background-color: #ee6123;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #user-link-container {
+    width: 100%;
+  }
+  #user-link-top {
+    padding: 0;
+  }
+  #user-link-middle {
+    margin-top: 5px;
+  }
+  #user-link-container {
+    min-height: 309px;
+  }
+}
