@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b8792a09e9304ae124e273eb9e007c1",
+    "revision": "7c961fe109eba5130afd243762ade24f",
     "url": "/shortify/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shortify/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "5be67cf31ecc60c74c35",
-    "url": "/shortify/static/css/main.9d3f8a5b.chunk.css"
+    "revision": "1a47f3edf621237a4e53",
+    "url": "/shortify/static/css/main.0c9fdb8f.chunk.css"
   },
   {
     "revision": "d25dd3448830caee611c",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shortify/static/js/2.e535691b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5be67cf31ecc60c74c35",
-    "url": "/shortify/static/js/main.d386ecfc.chunk.js"
+    "revision": "1a47f3edf621237a4e53",
+    "url": "/shortify/static/js/main.3979ebda.chunk.js"
   },
   {
     "revision": "091f962894759796a85a",
