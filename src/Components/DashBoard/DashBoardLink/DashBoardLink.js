@@ -15,15 +15,15 @@ const DashBoardLink = ({ updateAddUserLink }) => {
     let authenticateUser = localStorage.getItem("token");
     axios
       .post(
-        "http://localhost:8080/api/add/links",
+        "https://short-fy.herokuapp.com/api/add/links",
         {
           link,
-          date
+          date,
         },
         {
           headers: {
-            Authorization: authenticateUser
-          }
+            Authorization: authenticateUser,
+          },
         }
       )
       .then((res) => {

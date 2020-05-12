@@ -13,8 +13,8 @@ const Link = () => {
   };
   const onInputSubmit = () => {
     axios
-      .post("http://localhost:8080", {
-        link
+      .post("https://short-fy.herokuapp.com", {
+        link,
       })
       .then((res) => {
         setLink(res.data);

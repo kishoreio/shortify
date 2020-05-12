@@ -9,9 +9,9 @@ const Login = ({ changeIsLoggedIn }) => {
   const onFormSubmit = (event) => {
     event.preventDefault();
     axios
-      .post("http://localhost:8080/auth/login", {
+      .post("https://short-fy.herokuapp.com/auth/login", {
         email,
-        password
+        password,
       })
       .then((result) => {
         localStorage.setItem("token", result.data.token);

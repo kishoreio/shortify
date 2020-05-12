@@ -18,10 +18,14 @@ const SingleUserLink = ({ obj }) => {
           <p>{obj.longUrl}</p>
         </div>
         <div id="user-link-bottom">
-          <p className="user-link-shortUrl">{obj.shortUrl}</p>
+          <p className="user-link-shortUrl">{`https://short-fy.herokuapp.com/${obj.shortUrl}`}</p>
           <button
             className="user-link-btn"
-            onClick={() => navigator.clipboard.writeText(obj.shortUrl)}
+            onClick={() =>
+              navigator.clipboard.writeText(
+                `https://short-fy.herokuapp.com/${obj.shortUrl}`
+              )
+            }
           >
             Copy
           </button>

@@ -13,10 +13,10 @@ const Register = () => {
     event.preventDefault();
     if (String(password) === String(confirmPassword)) {
       axios
-        .post("http://localhost:8080/auth/register", {
+        .post("https://short-fy.herokuapp.com/auth/register", {
           name,
           email,
-          password
+          password,
         })
         .then((result) => {
           setSuccess(true);

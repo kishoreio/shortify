@@ -12,10 +12,10 @@ const DashBoard = ({ isLoggedIn }) => {
   let authenticateUser = localStorage.getItem("token");
   useEffect(() => {
     axios
-      .get("http://localhost:8080/api/links", {
+      .get("https://short-fy.herokuapp.com/api/links", {
         headers: {
-          Authorization: authenticateUser
-        }
+          Authorization: authenticateUser,
+        },
       })
       .then((result) => {
         setUserData(result.data.links);
@@ -29,14 +29,14 @@ const DashBoard = ({ isLoggedIn }) => {
     console.log("called");
     axios
       .post(
-        "http://localhost:8080/api/delete/links",
+        "https://short-fy.herokuapp.com/api/delete/links",
         {
-          urlLinkId: id
+          urlLinkId: id,
         },
         {
           headers: {
-            Authorization: authenticateUser
-          }
+            Authorization: authenticateUser,
+          },
         }
       )
       .then((result) => {

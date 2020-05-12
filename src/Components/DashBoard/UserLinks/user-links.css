@@ -54,8 +54,8 @@
   #user-link-top {
     padding: 0;
   }
-  #user-link-middle {
-    margin-top: 5px;
+  #user-link-tab {
+    height: 9rem;
   }
   #user-link-container {
     min-height: 309px;
