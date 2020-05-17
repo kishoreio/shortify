@@ -10,7 +10,7 @@ dashboard to manage all links and analyse the total no.of.clicks for each url.
 #### Code
 
 - [Front-end](https://github.com/kishoreio/shortify)
-- [Bank-end](https://github.com/kishoreio/shortify/tree/back-end)
+- [Bank-end](https://github.com/kishoreio/shortify/tree/backend)
 
 #### Built With
 
