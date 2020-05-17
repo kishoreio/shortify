@@ -3,7 +3,7 @@
 A URL shortener appt hat reduces long url to short url and also contains a
 dashboard to manage all links and analyse the total no.of.clicks for each url.
 
-![screen-short](./src/Resources/screen-shot1.png)
+![screen-shot](./src/Resources/screen-shot2.png)
 
 #### Live Version - [Shortify](https://github.com/kishoreio/shortify)
 
@@ -20,7 +20,7 @@ dashboard to manage all links and analyse the total no.of.clicks for each url.
 
 #### Dashboard
 
-![screen-shot](./src/Resources/screen-shot2.png)
+![screen-short](./src/Resources/screen-shot1.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
